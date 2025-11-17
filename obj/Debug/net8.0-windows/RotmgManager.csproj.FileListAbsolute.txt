@@ -1,0 +1,16 @@
+C:\dev\meuu\RotmgManager\bin\Debug\net8.0-windows\RotmgManager.exe
+C:\dev\meuu\RotmgManager\bin\Debug\net8.0-windows\RotmgManager.deps.json
+C:\dev\meuu\RotmgManager\bin\Debug\net8.0-windows\RotmgManager.runtimeconfig.json
+C:\dev\meuu\RotmgManager\bin\Debug\net8.0-windows\RotmgManager.dll
+C:\dev\meuu\RotmgManager\bin\Debug\net8.0-windows\RotmgManager.pdb
+C:\dev\meuu\RotmgManager\obj\Debug\net8.0-windows\RotmgManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\meuu\RotmgManager\obj\Debug\net8.0-windows\RotmgManager.AssemblyInfoInputs.cache
+C:\dev\meuu\RotmgManager\obj\Debug\net8.0-windows\RotmgManager.AssemblyInfo.cs
+C:\dev\meuu\RotmgManager\obj\Debug\net8.0-windows\RotmgManager.csproj.CoreCompileInputs.cache
+C:\dev\meuu\RotmgManager\obj\Debug\net8.0-windows\RotmgManager.dll
+C:\dev\meuu\RotmgManager\obj\Debug\net8.0-windows\refint\RotmgManager.dll
+C:\dev\meuu\RotmgManager\obj\Debug\net8.0-windows\RotmgManager.pdb
+C:\dev\meuu\RotmgManager\obj\Debug\net8.0-windows\RotmgManager.genruntimeconfig.cache
+C:\dev\meuu\RotmgManager\obj\Debug\net8.0-windows\ref\RotmgManager.dll
+C:\dev\meuu\RotmgManager\obj\Debug\net8.0-windows\RotmgManager.MainForm.resources
+C:\dev\meuu\RotmgManager\obj\Debug\net8.0-windows\RotmgManager.csproj.GenerateResource.cache

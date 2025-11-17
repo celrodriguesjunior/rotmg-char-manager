@@ -1,0 +1,201 @@
+{
+  "Classes": [
+    {
+      "ClassName": "Wizard",
+      "MaxStats": {
+        "Life": 670,
+        "Mana": 385,
+        "Attack": 75,
+        "Defense": 25,
+        "Speed": 60,
+        "Dexterity": 75,
+        "Vitality": 40,
+        "Wisdom": 60
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Knight",
+      "MaxStats": {
+        "Life": 770,
+        "Mana": 252,
+        "Attack": 75,
+        "Defense": 40,
+        "Speed": 50,
+        "Dexterity": 50,
+        "Vitality": 75,
+        "Wisdom": 60
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Priest",
+      "MaxStats": {
+        "Life": 670,
+        "Mana": 252,
+        "Attack": 50,
+        "Defense": 25,
+        "Speed": 60,
+        "Dexterity": 50,
+        "Vitality": 40,
+        "Wisdom": 75
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Assassin",
+      "MaxStats": {
+        "Life": 670,
+        "Mana": 252,
+        "Attack": 50,
+        "Defense": 25,
+        "Speed": 60,
+        "Dexterity": 50,
+        "Vitality": 40,
+        "Wisdom": 60
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Huntress",
+      "MaxStats": {
+        "Life": 670,
+        "Mana": 252,
+        "Attack": 50,
+        "Defense": 25,
+        "Speed": 60,
+        "Dexterity": 50,
+        "Vitality": 40,
+        "Wisdom": 60
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Necromancer",
+      "MaxStats": {
+        "Life": 670,
+        "Mana": 385,
+        "Attack": 50,
+        "Defense": 25,
+        "Speed": 60,
+        "Dexterity": 75,
+        "Vitality": 40,
+        "Wisdom": 60
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    }
+  ],
+  "Characters": [
+    {
+      "Id": "d2942301-97b7-4827-8348-c5d89988a998",
+      "Name": "Wizard",
+      "ClassName": "Wizard",
+      "CurrentStats": {
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
+      }
+    },
+    {
+      "Id": "df6be065-d9bd-4e51-afa0-fa01c4eae772",
+      "Name": "Knight",
+      "ClassName": "Knight",
+      "CurrentStats": {
+        "Life": 700,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
+      }
+    },
+    {
+      "Id": "ca7ef189-4b81-4555-8b1c-e273ff11f65f",
+      "Name": "Huntress",
+      "ClassName": "Huntress",
+      "CurrentStats": {
+        "Life": 750,
+        "Mana": 350,
+        "Attack": 65,
+        "Defense": 25,
+        "Speed": 50,
+        "Dexterity": 60,
+        "Vitality": 40,
+        "Wisdom": 60
+      }
+    }
+  ],
+  "Vault": {
+    "Potions": {
+      "Life": 0,
+      "Mana": 0,
+      "Attack": 0,
+      "Defense": 0,
+      "Speed": 0,
+      "Dexterity": 0,
+      "Vitality": 0,
+      "Wisdom": 0
+    }
+  }
+}
