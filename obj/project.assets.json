@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\meuu\\RotmgManager\\RotmgManager.csproj",
+      "projectUniqueName": "C:\\dev\\meuu\\rotmg-char-manager\\RotmgManager.csproj",
       "projectName": "RotmgManager",
-      "projectPath": "C:\\dev\\meuu\\RotmgManager\\RotmgManager.csproj",
+      "projectPath": "C:\\dev\\meuu\\rotmg-char-manager\\RotmgManager.csproj",
       "packagesPath": "C:\\Users\\CélioRodriguesJunior\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\meuu\\RotmgManager\\obj\\",
+      "outputPath": "C:\\dev\\meuu\\rotmg-char-manager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
