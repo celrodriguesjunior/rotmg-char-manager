@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\dev\\meuu\\rotmg-char-manager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|c:\\dev\\meuu\\rotmg-char-manager\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|solutionrelative:models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|c:\\dev\\meuu\\rotmg-char-manager\\persistence\\gamedatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|solutionrelative:persistence\\gamedatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|c:\\dev\\meuu\\rotmg-char-manager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|C:\\dev\\meuu\\rotmg-char-manager\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\dev\\meuu\\rotmg-char-manager\\Models\\Character.cs",
+              "RelativeDocumentMoniker": "Models\\Character.cs",
+              "ToolTip": "C:\\dev\\meuu\\rotmg-char-manager\\Models\\Character.cs",
+              "RelativeToolTip": "Models\\Character.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAMwCQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T15:36:56.329Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -61,56 +78,51 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\meuu\\rotmg-char-manager\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\dev\\meuu\\rotmg-char-manager\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T10:28:11.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\dev\\meuu\\rotmg-char-manager\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "C:\\dev\\meuu\\rotmg-char-manager\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBwAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBQAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T10:26:44.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs [Projeto]",
               "DocumentMoniker": "C:\\dev\\meuu\\rotmg-char-manager\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "C:\\dev\\meuu\\rotmg-char-manager\\MainForm.cs [Projeto]",
               "RelativeToolTip": "MainForm.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T10:25:48.698Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-11-18T10:25:48.698Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameDataRepository.cs",
               "DocumentMoniker": "C:\\dev\\meuu\\rotmg-char-manager\\Persistence\\GameDataRepository.cs",
               "RelativeDocumentMoniker": "Persistence\\GameDataRepository.cs",
               "ToolTip": "C:\\dev\\meuu\\rotmg-char-manager\\Persistence\\GameDataRepository.cs",
               "RelativeToolTip": "Persistence\\GameDataRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAcwHUAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T10:23:25.974Z",
               "EditorCaption": ""
