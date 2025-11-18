@@ -49,3 +49,4 @@ D:\dev\rotmg-char-manager\obj\Debug\net8.0-windows\RotmgManager.pdb
 D:\dev\rotmg-char-manager\obj\Debug\net8.0-windows\RotmgManager.genruntimeconfig.cache
 D:\dev\rotmg-char-manager\obj\Debug\net8.0-windows\ref\RotmgManager.dll
 D:\dev\rotmg-char-manager\obj\Debug\net8.0-windows\RotmgManager.UI.AddCharacterForm.resources
+C:\dev\meuu\rotmg-char-manager\obj\Debug\net8.0-windows\RotmgManager.UI.AddCharacterForm.resources

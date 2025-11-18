@@ -1,9 +1,10 @@
+using RotmgManager.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using RotmgManager.Models;
+using System.Threading;
 
 namespace RotmgManager.Persistence;
 
@@ -88,12 +89,24 @@ public class GameDataRepository
     {
         return new List<ClassConfig>
         {
-            CreateClassConfig("Wizard"),
-            CreateClassConfig("Knight"),
-            CreateClassConfig("Priest"),
-            CreateClassConfig("Assassin"),
-            CreateClassConfig("Huntress"),
-            CreateClassConfig("Necromancer")
+            CreateClassConfig(ClassName.Rogue.ToString()),
+            CreateClassConfig(ClassName.Archer.ToString()),
+            CreateClassConfig(ClassName.Wizard.ToString()),
+            CreateClassConfig(ClassName.Priest.ToString()),
+            CreateClassConfig(ClassName.Warrior.ToString()),
+            CreateClassConfig(ClassName.Knight.ToString()),
+            CreateClassConfig(ClassName.Paladin.ToString()),
+            CreateClassConfig(ClassName.Assassin.ToString()),
+            CreateClassConfig(ClassName.Necromancer.ToString()),
+            CreateClassConfig(ClassName.Huntress.ToString()),
+            CreateClassConfig(ClassName.Mystic.ToString()),
+            CreateClassConfig(ClassName.Trickster.ToString()),
+            CreateClassConfig(ClassName.Sorcerer.ToString()),
+            CreateClassConfig(ClassName.Ninja.ToString()),
+            CreateClassConfig(ClassName.Samurai.ToString()),
+            CreateClassConfig(ClassName.Bard.ToString()),
+            CreateClassConfig(ClassName.Summoner.ToString()),
+            CreateClassConfig(ClassName.Kensei.ToString()),
         };
     }
 

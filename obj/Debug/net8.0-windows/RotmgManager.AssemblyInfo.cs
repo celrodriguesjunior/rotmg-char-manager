@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RotmgManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d131b9ec6ee71334b2b1cd504182c68f78dc887")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d07665e466025485443c6fad0b253411efa399c")]
 [assembly: System.Reflection.AssemblyProductAttribute("RotmgManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RotmgManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

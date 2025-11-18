@@ -1,16 +1,16 @@
 {
   "Classes": [
     {
-      "ClassName": "Wizard",
+      "ClassName": "Rogue",
       "MaxStats": {
-        "Life": 700,
-        "Mana": 400,
-        "Attack": 60,
+        "Life": 750,
+        "Mana": 300,
+        "Attack": 55,
         "Defense": 25,
-        "Speed": 50,
+        "Speed": 65,
         "Dexterity": 75,
         "Vitality": 40,
-        "Wisdom": 60
+        "Wisdom": 50
       },
       "GainPerPotion": {
         "Life": 5,
@@ -24,16 +24,39 @@
       }
     },
     {
-      "ClassName": "Knight",
+      "ClassName": "Archer",
       "MaxStats": {
-        "Life": 800,
-        "Mana": 300,
-        "Attack": 50,
-        "Defense": 40,
-        "Speed": 50,
-        "Dexterity": 50,
-        "Vitality": 75,
-        "Wisdom": 50
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Wizard",
+      "MaxStats": {
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
       },
       "GainPerPotion": {
         "Life": 5,
@@ -49,14 +72,83 @@
     {
       "ClassName": "Priest",
       "MaxStats": {
-        "Life": 700,
-        "Mana": 400,
-        "Attack": 65,
-        "Defense": 25,
-        "Speed": 55,
-        "Dexterity": 60,
-        "Vitality": 40,
-        "Wisdom": 75
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Warrior",
+      "MaxStats": {
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Knight",
+      "MaxStats": {
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Paladin",
+      "MaxStats": {
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
       },
       "GainPerPotion": {
         "Life": 5,
@@ -72,14 +164,37 @@
     {
       "ClassName": "Assassin",
       "MaxStats": {
-        "Life": 750,
-        "Mana": 350,
-        "Attack": 65,
-        "Defense": 25,
-        "Speed": 65,
-        "Dexterity": 75,
-        "Vitality": 40,
-        "Wisdom": 60
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Necromancer",
+      "MaxStats": {
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
       },
       "GainPerPotion": {
         "Life": 5,
@@ -116,16 +231,177 @@
       }
     },
     {
-      "ClassName": "Necromancer",
+      "ClassName": "Mystic",
       "MaxStats": {
-        "Life": 700,
-        "Mana": 400,
-        "Attack": 75,
-        "Defense": 25,
-        "Speed": 50,
-        "Dexterity": 50,
-        "Vitality": 40,
-        "Wisdom": 75
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Trickster",
+      "MaxStats": {
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Sorcerer",
+      "MaxStats": {
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Ninja",
+      "MaxStats": {
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Samurai",
+      "MaxStats": {
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Bard",
+      "MaxStats": {
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Summoner",
+      "MaxStats": {
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Kensei",
+      "MaxStats": {
+        "Life": 0,
+        "Mana": 0,
+        "Attack": 0,
+        "Defense": 0,
+        "Speed": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Wisdom": 0
       },
       "GainPerPotion": {
         "Life": 5,
@@ -141,7 +417,7 @@
   ],
   "Characters": [
     {
-      "Id": "88547c38-b3fa-4cc2-a692-1bbd430dbee2",
+      "Id": "0b4f62bc-2e6e-4b4f-ae65-8e0be1bf52fb",
       "Name": "Huntress",
       "ClassName": "Huntress",
       "CurrentStats": {
