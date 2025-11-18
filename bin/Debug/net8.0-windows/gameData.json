@@ -3,11 +3,11 @@
     {
       "ClassName": "Wizard",
       "MaxStats": {
-        "Life": 670,
-        "Mana": 385,
-        "Attack": 75,
+        "Life": 700,
+        "Mana": 400,
+        "Attack": 60,
         "Defense": 25,
-        "Speed": 60,
+        "Speed": 50,
         "Dexterity": 75,
         "Vitality": 40,
         "Wisdom": 60
@@ -26,14 +26,14 @@
     {
       "ClassName": "Knight",
       "MaxStats": {
-        "Life": 770,
-        "Mana": 252,
-        "Attack": 75,
+        "Life": 800,
+        "Mana": 300,
+        "Attack": 50,
         "Defense": 40,
         "Speed": 50,
         "Dexterity": 50,
         "Vitality": 75,
-        "Wisdom": 60
+        "Wisdom": 50
       },
       "GainPerPotion": {
         "Life": 5,
@@ -49,12 +49,12 @@
     {
       "ClassName": "Priest",
       "MaxStats": {
-        "Life": 670,
-        "Mana": 252,
-        "Attack": 50,
+        "Life": 700,
+        "Mana": 400,
+        "Attack": 65,
         "Defense": 25,
-        "Speed": 60,
-        "Dexterity": 50,
+        "Speed": 55,
+        "Dexterity": 60,
         "Vitality": 40,
         "Wisdom": 75
       },
@@ -72,12 +72,12 @@
     {
       "ClassName": "Assassin",
       "MaxStats": {
-        "Life": 670,
-        "Mana": 252,
-        "Attack": 50,
+        "Life": 750,
+        "Mana": 350,
+        "Attack": 65,
         "Defense": 25,
-        "Speed": 60,
-        "Dexterity": 50,
+        "Speed": 65,
+        "Dexterity": 75,
         "Vitality": 40,
         "Wisdom": 60
       },
@@ -95,12 +95,12 @@
     {
       "ClassName": "Huntress",
       "MaxStats": {
-        "Life": 670,
-        "Mana": 252,
-        "Attack": 50,
+        "Life": 750,
+        "Mana": 350,
+        "Attack": 65,
         "Defense": 25,
-        "Speed": 60,
-        "Dexterity": 50,
+        "Speed": 50,
+        "Dexterity": 60,
         "Vitality": 40,
         "Wisdom": 60
       },
@@ -118,14 +118,14 @@
     {
       "ClassName": "Necromancer",
       "MaxStats": {
-        "Life": 670,
-        "Mana": 385,
-        "Attack": 50,
+        "Life": 700,
+        "Mana": 400,
+        "Attack": 75,
         "Defense": 25,
-        "Speed": 60,
-        "Dexterity": 75,
+        "Speed": 50,
+        "Dexterity": 50,
         "Vitality": 40,
-        "Wisdom": 60
+        "Wisdom": 75
       },
       "GainPerPotion": {
         "Life": 5,
@@ -141,37 +141,7 @@
   ],
   "Characters": [
     {
-      "Id": "d2942301-97b7-4827-8348-c5d89988a998",
-      "Name": "Wizard",
-      "ClassName": "Wizard",
-      "CurrentStats": {
-        "Life": 0,
-        "Mana": 0,
-        "Attack": 0,
-        "Defense": 0,
-        "Speed": 0,
-        "Dexterity": 0,
-        "Vitality": 0,
-        "Wisdom": 0
-      }
-    },
-    {
-      "Id": "df6be065-d9bd-4e51-afa0-fa01c4eae772",
-      "Name": "Knight",
-      "ClassName": "Knight",
-      "CurrentStats": {
-        "Life": 700,
-        "Mana": 0,
-        "Attack": 0,
-        "Defense": 0,
-        "Speed": 0,
-        "Dexterity": 0,
-        "Vitality": 0,
-        "Wisdom": 0
-      }
-    },
-    {
-      "Id": "ca7ef189-4b81-4555-8b1c-e273ff11f65f",
+      "Id": "88547c38-b3fa-4cc2-a692-1bbd430dbee2",
       "Name": "Huntress",
       "ClassName": "Huntress",
       "CurrentStats": {
