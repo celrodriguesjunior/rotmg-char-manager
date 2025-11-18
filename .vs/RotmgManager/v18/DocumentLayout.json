@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|solutionrelative:persistence\\gamedatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|d:\\dev\\rotmg-char-manager\\ui\\classiconprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|solutionrelative:ui\\classiconprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|d:\\dev\\rotmg-char-manager\\models\\classname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|solutionrelative:models\\classname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|d:\\dev\\rotmg-char-manager\\models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|solutionrelative:models\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|d:\\dev\\rotmg-char-manager\\services\\characterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|solutionrelative:services\\characterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5C45DA5-BCDE-C80C-9C1C-9A6918E84390}|RotmgManager.csproj|d:\\dev\\rotmg-char-manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,8 +30,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CharacterService.cs",
+              "DocumentMoniker": "D:\\dev\\rotmg-char-manager\\Services\\CharacterService.cs",
+              "RelativeDocumentMoniker": "Services\\CharacterService.cs",
+              "ToolTip": "D:\\dev\\rotmg-char-manager\\Services\\CharacterService.cs",
+              "RelativeToolTip": "Services\\CharacterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T02:09:18.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClassName.cs",
+              "DocumentMoniker": "D:\\dev\\rotmg-char-manager\\Models\\ClassName.cs",
+              "RelativeDocumentMoniker": "Models\\ClassName.cs",
+              "ToolTip": "D:\\dev\\rotmg-char-manager\\Models\\ClassName.cs",
+              "RelativeToolTip": "Models\\ClassName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T02:06:23.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Character.cs",
+              "DocumentMoniker": "D:\\dev\\rotmg-char-manager\\Models\\Character.cs",
+              "RelativeDocumentMoniker": "Models\\Character.cs",
+              "ToolTip": "D:\\dev\\rotmg-char-manager\\Models\\Character.cs",
+              "RelativeToolTip": "Models\\Character.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T02:05:57.007Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,27 +79,14 @@
               "RelativeDocumentMoniker": "Persistence\\GameDataRepository.cs",
               "ToolTip": "D:\\dev\\rotmg-char-manager\\Persistence\\GameDataRepository.cs",
               "RelativeToolTip": "Persistence\\GameDataRepository.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAewFkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAYwHkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T01:31:19.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClassIconProvider.cs",
-              "DocumentMoniker": "D:\\dev\\rotmg-char-manager\\UI\\ClassIconProvider.cs",
-              "RelativeDocumentMoniker": "UI\\ClassIconProvider.cs",
-              "ToolTip": "D:\\dev\\rotmg-char-manager\\UI\\ClassIconProvider.cs",
-              "RelativeToolTip": "UI\\ClassIconProvider.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAIwGoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T01:28:37.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\dev\\rotmg-char-manager\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
