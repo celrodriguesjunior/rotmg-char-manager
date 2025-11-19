@@ -1,6 +1,52 @@
 {
   "Classes": [
     {
+      "ClassName": "Rogue",
+      "MaxStats": {
+        "Life": 750,
+        "Mana": 300,
+        "Attack": 55,
+        "Defense": 25,
+        "Speed": 65,
+        "Dexterity": 75,
+        "Vitality": 40,
+        "Wisdom": 50
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Archer",
+      "MaxStats": {
+        "Life": 750,
+        "Mana": 300,
+        "Attack": 75,
+        "Defense": 25,
+        "Speed": 55,
+        "Dexterity": 50,
+        "Vitality": 40,
+        "Wisdom": 50
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
       "ClassName": "Wizard",
       "MaxStats": {
         "Life": 700,
@@ -11,6 +57,52 @@
         "Dexterity": 75,
         "Vitality": 40,
         "Wisdom": 60
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Priest",
+      "MaxStats": {
+        "Life": 700,
+        "Mana": 400,
+        "Attack": 65,
+        "Defense": 25,
+        "Speed": 55,
+        "Dexterity": 60,
+        "Vitality": 40,
+        "Wisdom": 75
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Warrior",
+      "MaxStats": {
+        "Life": 800,
+        "Mana": 300,
+        "Attack": 75,
+        "Defense": 25,
+        "Speed": 50,
+        "Dexterity": 50,
+        "Vitality": 75,
+        "Wisdom": 50
       },
       "GainPerPotion": {
         "Life": 5,
@@ -47,15 +139,15 @@
       }
     },
     {
-      "ClassName": "Priest",
+      "ClassName": "Paladin",
       "MaxStats": {
-        "Life": 700,
-        "Mana": 400,
-        "Attack": 65,
-        "Defense": 25,
+        "Life": 800,
+        "Mana": 300,
+        "Attack": 55,
+        "Defense": 30,
         "Speed": 55,
-        "Dexterity": 60,
-        "Vitality": 40,
+        "Dexterity": 55,
+        "Vitality": 60,
         "Wisdom": 75
       },
       "GainPerPotion": {
@@ -93,6 +185,29 @@
       }
     },
     {
+      "ClassName": "Necromancer",
+      "MaxStats": {
+        "Life": 700,
+        "Mana": 400,
+        "Attack": 75,
+        "Defense": 25,
+        "Speed": 50,
+        "Dexterity": 60,
+        "Vitality": 40,
+        "Wisdom": 75
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
       "ClassName": "Huntress",
       "MaxStats": {
         "Life": 750,
@@ -116,16 +231,177 @@
       }
     },
     {
-      "ClassName": "Necromancer",
+      "ClassName": "Mystic",
       "MaxStats": {
         "Life": 700,
         "Mana": 400,
-        "Attack": 75,
+        "Attack": 65,
         "Defense": 25,
-        "Speed": 50,
-        "Dexterity": 50,
+        "Speed": 60,
+        "Dexterity": 65,
         "Vitality": 40,
         "Wisdom": 75
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Trickster",
+      "MaxStats": {
+        "Life": 750,
+        "Mana": 300,
+        "Attack": 65,
+        "Defense": 25,
+        "Speed": 75,
+        "Dexterity": 75,
+        "Vitality": 40,
+        "Wisdom": 60
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Sorcerer",
+      "MaxStats": {
+        "Life": 700,
+        "Mana": 400,
+        "Attack": 70,
+        "Defense": 25,
+        "Speed": 60,
+        "Dexterity": 60,
+        "Vitality": 75,
+        "Wisdom": 60
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Ninja",
+      "MaxStats": {
+        "Life": 800,
+        "Mana": 300,
+        "Attack": 70,
+        "Defense": 25,
+        "Speed": 60,
+        "Dexterity": 70,
+        "Vitality": 60,
+        "Wisdom": 70
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Samurai",
+      "MaxStats": {
+        "Life": 800,
+        "Mana": 300,
+        "Attack": 75,
+        "Defense": 30,
+        "Speed": 55,
+        "Dexterity": 55,
+        "Vitality": 60,
+        "Wisdom": 60
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Bard",
+      "MaxStats": {
+        "Life": 750,
+        "Mana": 400,
+        "Attack": 55,
+        "Defense": 25,
+        "Speed": 55,
+        "Dexterity": 70,
+        "Vitality": 45,
+        "Wisdom": 75
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Summoner",
+      "MaxStats": {
+        "Life": 700,
+        "Mana": 400,
+        "Attack": 60,
+        "Defense": 25,
+        "Speed": 60,
+        "Dexterity": 75,
+        "Vitality": 40,
+        "Wisdom": 75
+      },
+      "GainPerPotion": {
+        "Life": 5,
+        "Mana": 5,
+        "Attack": 1,
+        "Defense": 1,
+        "Speed": 1,
+        "Dexterity": 1,
+        "Vitality": 1,
+        "Wisdom": 1
+      }
+    },
+    {
+      "ClassName": "Kensei",
+      "MaxStats": {
+        "Life": 800,
+        "Mana": 300,
+        "Attack": 65,
+        "Defense": 25,
+        "Speed": 60,
+        "Dexterity": 65,
+        "Vitality": 60,
+        "Wisdom": 50
       },
       "GainPerPotion": {
         "Life": 5,
@@ -141,7 +417,7 @@
   ],
   "Characters": [
     {
-      "Id": "88547c38-b3fa-4cc2-a692-1bbd430dbee2",
+      "Id": "fab42f2f-8629-4ef2-bfb6-0de79673d5b2",
       "Name": "Huntress",
       "ClassName": "Huntress",
       "CurrentStats": {
@@ -153,6 +429,231 @@
         "Dexterity": 60,
         "Vitality": 40,
         "Wisdom": 60
+      }
+    },
+    {
+      "Id": "2537d7bf-3d9b-40b0-8554-1c4ce09ce7af",
+      "Name": "Mystic",
+      "ClassName": "Mystic",
+      "CurrentStats": {
+        "Life": 580,
+        "Mana": 304,
+        "Attack": 65,
+        "Defense": 25,
+        "Speed": 60,
+        "Dexterity": 65,
+        "Vitality": 40,
+        "Wisdom": 75
+      }
+    },
+    {
+      "Id": "6204b6cf-5b9c-4207-a7f4-21094a94488f",
+      "Name": "Summoner",
+      "ClassName": "Summoner",
+      "CurrentStats": {
+        "Life": 570,
+        "Mana": 285,
+        "Attack": 60,
+        "Defense": 25,
+        "Speed": 60,
+        "Dexterity": 75,
+        "Vitality": 31,
+        "Wisdom": 54
+      }
+    },
+    {
+      "Id": "6ff728de-4386-4bc4-ad00-d07142124740",
+      "Name": "Warrior",
+      "ClassName": "Warrior",
+      "CurrentStats": {
+        "Life": 675,
+        "Mana": 195,
+        "Attack": 72,
+        "Defense": 20,
+        "Speed": 50,
+        "Dexterity": 41,
+        "Vitality": 72,
+        "Wisdom": 50
+      }
+    },
+    {
+      "Id": "025be11d-7b00-41d6-b03e-183f388f74ea",
+      "Name": "Wizard",
+      "ClassName": "Wizard",
+      "CurrentStats": {
+        "Life": 700,
+        "Mana": 284,
+        "Attack": 60,
+        "Defense": 25,
+        "Speed": 50,
+        "Dexterity": 75,
+        "Vitality": 40,
+        "Wisdom": 60
+      }
+    },
+    {
+      "Id": "693efc91-f3e1-4955-ad59-9b12a63765f2",
+      "Name": "Paladin",
+      "ClassName": "Paladin",
+      "CurrentStats": {
+        "Life": 679,
+        "Mana": 192,
+        "Attack": 55,
+        "Defense": 30,
+        "Speed": 55,
+        "Dexterity": 55,
+        "Vitality": 35,
+        "Wisdom": 42
+      }
+    },
+    {
+      "Id": "ca28c403-a4d7-4dcd-beab-c824c89e8241",
+      "Name": "Bard",
+      "ClassName": "Bard",
+      "CurrentStats": {
+        "Life": 750,
+        "Mana": 400,
+        "Attack": 55,
+        "Defense": 25,
+        "Speed": 55,
+        "Dexterity": 70,
+        "Vitality": 45,
+        "Wisdom": 75
+      }
+    },
+    {
+      "Id": "ee2ec1f1-e563-4866-9955-395429b5f12a",
+      "Name": "Assassin",
+      "ClassName": "Assassin",
+      "CurrentStats": {
+        "Life": 750,
+        "Mana": 350,
+        "Attack": 65,
+        "Defense": 25,
+        "Speed": 65,
+        "Dexterity": 75,
+        "Vitality": 40,
+        "Wisdom": 60
+      }
+    },
+    {
+      "Id": "18a9e57b-375b-44cf-a1b2-88078662a32a",
+      "Name": "Samurai",
+      "ClassName": "Samurai",
+      "CurrentStats": {
+        "Life": 604,
+        "Mana": 196,
+        "Attack": 75,
+        "Defense": 30,
+        "Speed": 55,
+        "Dexterity": 55,
+        "Vitality": 60,
+        "Wisdom": 60
+      }
+    },
+    {
+      "Id": "2b0b9fb7-b7f8-435c-84aa-ed1352e45b7b",
+      "Name": "Knight",
+      "ClassName": "Knight",
+      "CurrentStats": {
+        "Life": 800,
+        "Mana": 300,
+        "Attack": 50,
+        "Defense": 40,
+        "Speed": 50,
+        "Dexterity": 50,
+        "Vitality": 75,
+        "Wisdom": 50
+      }
+    },
+    {
+      "Id": "fe4c7bcc-7846-428e-bba4-f345c22f909e",
+      "Name": "Trickster",
+      "ClassName": "Trickster",
+      "CurrentStats": {
+        "Life": 654,
+        "Mana": 203,
+        "Attack": 65,
+        "Defense": 25,
+        "Speed": 75,
+        "Dexterity": 42,
+        "Vitality": 40,
+        "Wisdom": 60
+      }
+    },
+    {
+      "Id": "e0290b5a-50a4-41e1-a861-6036ea59dd6b",
+      "Name": "Sorcerer",
+      "ClassName": "Sorcerer",
+      "CurrentStats": {
+        "Life": 610,
+        "Mana": 283,
+        "Attack": 70,
+        "Defense": 25,
+        "Speed": 60,
+        "Dexterity": 60,
+        "Vitality": 75,
+        "Wisdom": 60
+      }
+    },
+    {
+      "Id": "5bf0000d-73c6-430b-8673-a4e8fbc06bcd",
+      "Name": "Priest",
+      "ClassName": "Priest",
+      "CurrentStats": {
+        "Life": 700,
+        "Mana": 400,
+        "Attack": 65,
+        "Defense": 25,
+        "Speed": 55,
+        "Dexterity": 60,
+        "Vitality": 40,
+        "Wisdom": 75
+      }
+    },
+    {
+      "Id": "aef21620-5e17-4560-95a2-04840c700494",
+      "Name": "Archer",
+      "ClassName": "Archer",
+      "CurrentStats": {
+        "Life": 750,
+        "Mana": 300,
+        "Attack": 75,
+        "Defense": 25,
+        "Speed": 55,
+        "Dexterity": 50,
+        "Vitality": 40,
+        "Wisdom": 50
+      }
+    },
+    {
+      "Id": "a7c466f8-3556-49b5-b650-f67c7d4f9456",
+      "Name": "Necromancer",
+      "ClassName": "Necromancer",
+      "CurrentStats": {
+        "Life": 700,
+        "Mana": 400,
+        "Attack": 75,
+        "Defense": 25,
+        "Speed": 50,
+        "Dexterity": 60,
+        "Vitality": 40,
+        "Wisdom": 75
+      }
+    },
+    {
+      "Id": "e15ffc69-279a-410f-811f-5e8453ea67ea",
+      "Name": "Kensei",
+      "ClassName": "Kensei",
+      "CurrentStats": {
+        "Life": 675,
+        "Mana": 195,
+        "Attack": 65,
+        "Defense": 25,
+        "Speed": 60,
+        "Dexterity": 58,
+        "Vitality": 60,
+        "Wisdom": 50
       }
     }
   ],

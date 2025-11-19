@@ -12,8 +12,10 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\junin\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\junin\\.nuget\\packages",
+      "C:\\Users\\CélioRodriguesJunior\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\CélioRodriguesJunior\\.nuget\\packages",
+      "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
+      "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

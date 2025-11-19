@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
 
 namespace RotmgManager.UI;
 
@@ -40,33 +41,13 @@ public sealed class ClassIconProvider : IDisposable
 
     private Image CreateIcon(string className)
     {
-        const int size = 160;
-        var bitmap = new Bitmap(size, size);
-        using var graphics = Graphics.FromImage(bitmap);
-        graphics.SmoothingMode = SmoothingMode.AntiAlias;
-        graphics.Clear(Color.Black);
+        const int size = 200;
+        const string dir = "C:\\dev\\meuu\\rotmg-char-manager\\img";
 
-        using (var brush = new LinearGradientBrush(
-                   new Rectangle(0, 0, size, size),
-                   GetColorForClass(className),
-                   Color.FromArgb(30, Color.White),
-                   45f))
-        {
-            graphics.FillRectangle(brush, 0, 0, size, size);
-        }
+        Bitmap bitmap;
 
-        using (var borderPen = new Pen(Color.FromArgb(150, Color.Black), 4))
-        {
-            graphics.DrawRectangle(borderPen, 2, 2, size - 4, size - 4);
-        }
-
-        string text = GetDisplayText(className);
-        using var font = new Font("Segoe UI", 28, FontStyle.Bold, GraphicsUnit.Point);
-        SizeF textSize = graphics.MeasureString(text, font);
-        using var textBrush = new SolidBrush(Color.White);
-        graphics.DrawString(text, font, textBrush,
-            (size - textSize.Width) / 2f,
-            (size - textSize.Height) / 2f);
+        bitmap = new Bitmap($"{dir}\\{className.ToLower()}.png");
+        //bitmap = GerarImagemQuadrada($"{dir}\\{className.ToLower()}.png");
 
         return bitmap;
     }
@@ -105,4 +86,37 @@ public sealed class ClassIconProvider : IDisposable
 
         cache.Clear();
     }
+    //public static Bitmap GerarImagemQuadrada(string caminhoEntrada)
+    //{
+    //    using var original = Image.FromFile(caminhoEntrada);
+
+    //    int largura = original.Width;
+    //    int altura = original.Height;
+
+    //    int lado = Math.Max(largura, altura); // tamanho do quadrado
+
+    //    // Garante transparência (PNG)
+    //    using var quadrada = new Bitmap(lado, lado, PixelFormat.Format32bppArgb);
+
+    //    using (var g = Graphics.FromImage(quadrada))
+    //    {
+    //        // Fundo transparente
+    //        g.Clear(Color.Transparent);
+
+    //        // Pra pixel art não ficar borrado
+    //        g.InterpolationMode = InterpolationMode.NearestNeighbor;
+    //        g.PixelOffsetMode = PixelOffsetMode.Half;
+    //        g.SmoothingMode = SmoothingMode.None;
+    //        g.CompositingMode = CompositingMode.SourceOver;
+
+    //        // Centraliza a imagem
+    //        int x = (lado - largura) / 2;
+    //        int y = (lado - altura) / 2;
+
+    //        g.DrawImage(original, x, y, largura, altura);
+    //    }
+
+    //    return quadrada;
+    //}
+
 }

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Security.Policy;
 using System.Threading;
 
 namespace RotmgManager.Models;
@@ -26,8 +27,24 @@ public class Character
     public static ClassName StrClassNameToEnum(string className) => className switch
     {
         "Rogue" => Models.ClassName.Rogue,
+        "Archer" => Models.ClassName.Archer,
+        "Wizard" => Models.ClassName.Wizard,
+        "Priest" => Models.ClassName.Priest,
+        "Warrior" => Models.ClassName.Warrior,
+        "Knight" => Models.ClassName.Knight,
+        "Paladin" => Models.ClassName.Paladin,
+        "Assassin" => Models.ClassName.Assassin,
+        "Necromancer" => Models.ClassName.Necromancer,
         "Huntress" => Models.ClassName.Huntress,
-        _ => Models.ClassName.None
+        "Mystic" => Models.ClassName.Mystic,
+        "Trickster" => Models.ClassName.Trickster,
+        "Sorcerer" => Models.ClassName.Sorcerer,
+        "Ninja" => Models.ClassName.Ninja,
+        "Samurai" => Models.ClassName.Samurai,
+        "Bard" => Models.ClassName.Bard,
+        "Summoner" => Models.ClassName.Summoner,
+        "Kensei" => Models.ClassName.Kensei,
+        "None" => Models.ClassName.None
     };
 
     public override string ToString() => Name;
@@ -40,24 +57,24 @@ public static class CharacterMaxStatusFactory
     {
         return className switch
         {
-            ClassName.Rogue => new Character(className.ToString(), GenerateDictonary(750    ,300 ,55  ,25  ,65  ,75  ,40  ,50)),
-            ClassName.Archer => new Character(className.ToString(), GenerateDictonary(750   ,300 ,75  ,25  ,55  ,50  ,40  ,50)),
-            ClassName.Wizard => new Character(className.ToString(), GenerateDictonary(700   ,400 ,60  ,25  ,50  ,75  ,40  ,60)),
-            ClassName.Priest => new Character(className.ToString(), GenerateDictonary(700   ,400 ,65  ,25  ,55  ,60  ,40  ,75)),
-            ClassName.Warrior => new Character(className.ToString(), GenerateDictonary(800  ,300 ,75  ,25  ,50  ,50  ,75  ,50)),
-            ClassName.Knight => new Character(className.ToString(), GenerateDictonary(800   ,300 ,50  ,40  ,50  ,50  ,75  ,50)),
-            ClassName.Paladin => new Character(className.ToString(), GenerateDictonary(800  ,300 ,55  ,30  ,55  ,55  ,60  ,75)),
-            ClassName.Assassin => new Character(className.ToString(), GenerateDictonary(750 ,350 ,65  ,25  ,65  ,75  ,40  ,60)       ),
-            ClassName.Necromancer => new Character(className.ToString(), GenerateDictonary(700  ,400 ,75  ,25  ,50  ,60  ,40  ,75)),
-            ClassName.Huntress => new Character(className.ToString(), GenerateDictonary(750 ,350 ,65  ,25  ,50  ,60  ,40  ,60)),
-            ClassName.Mystic => new Character(className.ToString(), GenerateDictonary(700   ,400 ,65  ,25  ,60  ,65  ,40  ,75)),
-            ClassName.Trickster => new Character(className.ToString(), GenerateDictonary(750    ,300 ,65  ,25  ,75  ,75  ,40  ,60)),
-            ClassName.Sorcerer => new Character(className.ToString(), GenerateDictonary(700 ,400 ,70  ,25  ,60  ,60  ,75  ,60)),
-            ClassName.Ninja => new Character(className.ToString(), GenerateDictonary(800    ,300 ,70  ,25  ,60  ,70  ,60  ,70)),
-            ClassName.Samurai => new Character(className.ToString(), GenerateDictonary(800  ,300 ,75  ,30  ,55  ,55  ,60  ,60)),
-            ClassName.Bard => new Character(className.ToString(), GenerateDictonary(750 ,400 ,55  ,25  ,55  ,70  ,45  ,75)),
-            ClassName.Summoner => new Character(className.ToString(), GenerateDictonary(700 ,400 ,60  ,25  ,60  ,75  ,40  ,75)),
-            ClassName.Kensei => new Character(className.ToString(), GenerateDictonary(800   ,300 ,65  ,25  ,60  ,65  ,60  ,50)),
+            ClassName.Rogue => new Character(className.ToString(), GenerateDictonary(750, 300, 55, 25, 65, 75, 40, 50)),
+            ClassName.Archer => new Character(className.ToString(), GenerateDictonary(750, 300, 75, 25, 55, 50, 40, 50)),
+            ClassName.Wizard => new Character(className.ToString(), GenerateDictonary(700, 400, 60, 25, 50, 75, 40, 60)),
+            ClassName.Priest => new Character(className.ToString(), GenerateDictonary(700, 400, 65, 25, 55, 60, 40, 75)),
+            ClassName.Warrior => new Character(className.ToString(), GenerateDictonary(800, 300, 75, 25, 50, 50, 75, 50)),
+            ClassName.Knight => new Character(className.ToString(), GenerateDictonary(800, 300, 50, 40, 50, 50, 75, 50)),
+            ClassName.Paladin => new Character(className.ToString(), GenerateDictonary(800, 300, 55, 30, 55, 55, 60, 75)),
+            ClassName.Assassin => new Character(className.ToString(), GenerateDictonary(750, 350, 65, 25, 65, 75, 40, 60)),
+            ClassName.Necromancer => new Character(className.ToString(), GenerateDictonary(700, 400, 75, 25, 50, 60, 40, 75)),
+            ClassName.Huntress => new Character(className.ToString(), GenerateDictonary(750, 350, 65, 25, 50, 60, 40, 60)),
+            ClassName.Mystic => new Character(className.ToString(), GenerateDictonary(700, 400, 65, 25, 60, 65, 40, 75)),
+            ClassName.Trickster => new Character(className.ToString(), GenerateDictonary(750, 300, 65, 25, 75, 75, 40, 60)),
+            ClassName.Sorcerer => new Character(className.ToString(), GenerateDictonary(700, 400, 70, 25, 60, 60, 75, 60)),
+            ClassName.Ninja => new Character(className.ToString(), GenerateDictonary(800, 300, 70, 25, 60, 70, 60, 70)),
+            ClassName.Samurai => new Character(className.ToString(), GenerateDictonary(800, 300, 75, 30, 55, 55, 60, 60)),
+            ClassName.Bard => new Character(className.ToString(), GenerateDictonary(750, 400, 55, 25, 55, 70, 45, 75)),
+            ClassName.Summoner => new Character(className.ToString(), GenerateDictonary(700, 400, 60, 25, 60, 75, 40, 75)),
+            ClassName.Kensei => new Character(className.ToString(), GenerateDictonary(800, 300, 65, 25, 60, 65, 60, 50)),
             _ => new Character(className.ToString(), GenerateDictonary(0, 0, 0, 0, 0, 0, 0, 0))
         };
     }
